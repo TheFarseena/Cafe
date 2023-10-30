@@ -1,0 +1,250 @@
+
+/* header */
+.header-container ul{
+    list-style: none;
+    display: flex ;
+    justify-content: space-around;
+}
+.header-container{
+    background-color: black; 
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Inconsolata", sans-serif;
+    position: fixed;
+    height: 50px;
+    z-index: 1;
+    inset:0 ;
+
+}
+.header-container li:hover{
+    background-color: gray;
+    padding: 9px 50px;
+
+}
+    
+
+
+/* image container */
+
+    
+
+.image-container{
+    position: relative;
+    background: url(https://anybodycanbake.com/wp-content/uploads/2019/03/Baking-History.jpg.webp);
+    height: 70vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:470px){
+    .image-container {
+        width: 190%;
+    }
+}
+.image-container h1{
+   color: white;
+   font-size: 8rem;
+   font-weight: 100;
+   line-height: 13rem;
+
+}
+
+.image-container h6 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 2px 4px;
+    font-size: 10px;
+    margin-left: 10px;
+
+}
+.image-container h5{
+    position: absolute;
+    bottom: -9px;
+    right: 15px;
+    color: white;
+}
+
+/* @media (max-width: 768px) {
+    .header-container ul  {
+        gap: 20px;
+    }
+
+    .header-container ul {
+        font-size: 3rem;
+    }
+}
+ */
+ .container1{
+    width: 700px;
+    margin: auto;
+    font-family: "Segoe UI",Arial,sans-serif;
+    letter-spacing: 2.5px;
+
+
+ }
+ .about-container{
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+ }
+ .container1 h3{
+    background-color: black;
+    color:white;
+    width: 300px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 10px;
+    font-weight: normal;
+ }
+ p{
+    text-align: justify;
+    line-height: 40px;
+    
+ }
+ .abt-container {
+    background-color: lightgray;
+    border-left: 5px solid  rgb(161, 161, 161);
+    padding-left: 10px;
+ }
+ .container1 img{
+    width: 100%;
+    margin-top: 30px;
+    opacity: 0.8;
+ }
+ .container1 span{
+    font-weight: normal;
+    letter-spacing: 0;
+ }
+ .container1 h4{
+    letter-spacing: 0;
+ }
+ .menu-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+ }
+
+
+
+ /* MENU SEC */
+
+ .menu-sec {
+    width: 700px;
+    margin: auto;
+    border: 0.3px solid  grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(238, 236, 236);
+    box-shadow: 0 3px 5px;
+    border-top: none;
+
+    
+}
+.btns {
+    display: flex;
+justify-content: center;
+
+/* width: 100px; */
+}
+.btns button{
+    border: none;
+    padding: 10px 163px;
+    font-size: 17px;
+    color: black;
+    background-color: white;
+
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+button:active{
+    background-color: grey;
+}
+
+.result1 {
+    font-weight:normal;
+    font-family: "Inconsolata", sans-serif;
+
+}
+.result1 p{
+    color: grey;
+}
+.result1 h3{
+    font-weight: normal;
+}
+.contact-container{
+    font-family: "Inconsolata", sans-serif;
+    width:700px ;
+    margin: auto;
+
+
+}
+.contact-container h3{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    margin-top: 30px;
+    letter-spacing: 5px;
+    
+}
+.contact-container h5{
+background-color: rgb(215, 209, 209);
+font-weight: normal;
+font-size: 15px;
+padding: 5px;
+width: 350px;
+letter-spacing: 2px;
+}
+.contact-container img{
+width: 100%;
+}
+.contact-container p{
+    font-family: "Inconsolata", sans-serif;
+    letter-spacing: 1.5px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.color{
+    color: black;
+    font-weight: bold;
+}
+.inputBox{
+    width: 700px;
+    height: 50px;
+    font-family: "Inconsolata", sans-serif;
+    padding: 10px;
+    border: 1px solid rgb(166, 162, 162);
+    font-size: medium;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(150, 142, 142);
+}
+.footer p{
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 60px;
+    font-family: "Inconsolata", sans-serif;
+
+}
+.footer a{
+    color: black;
+}
