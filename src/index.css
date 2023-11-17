@@ -1,4 +1,7 @@
 
+
+
+
 /* header */
 .header-container ul{
     list-style: none;
@@ -23,6 +26,11 @@
 
 }
     
+.header-container a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 
 
 /* image container */
@@ -31,7 +39,7 @@
 
 .image-container{
     position: relative;
-    background: url(https://anybodycanbake.com/wp-content/uploads/2019/03/Baking-History.jpg.webp);
+    background: url(https://anybodycanbake.com/wp-content/uploads/2019/03/Baking-History.jpg.webp) ;
     height: 70vh;
     background-repeat: no-repeat;
     width: 100%;
@@ -42,7 +50,7 @@
 }
 @media(max-width:470px){
     .image-container {
-        width: 190%;
+        width: 207%;
     }
 }
 .image-container h1{

@@ -83,19 +83,24 @@ function App() {
               {/* item :- <li> ABOUT */}
               {/* item :- <li> MENU */}
               {/* item :- <li> WHERE */}
-              <li>Home</li>
+              <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li>Menu</li>
+              <li><a href="#menu">Menu</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
-          <div className="image-container" id='Home'>
+
+          {/* Home section */}
+          <div className="image-container" id='home'>
             {/* <img src="https://anybodycanbake.com/wp-content/uploads/2019/03/Baking-History.jpg.webp" alt="unloaded" /> */}
             <h1>the <br></br>Cafe</h1>
             <h6>open from 6am to 5pm</h6>
             <h5>15 Adr street, 5015</h5>
           </div>
         </div>
+
+
+        {/* About-section */}
         <div className="container1">
           <div id='about' className="about-container">
             <h3 >ABOUT THE CAFE</h3>
@@ -108,11 +113,13 @@ function App() {
             <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
             <p>Chef, Coffeeist and Owner: Liam Brown</p>
           </div>
+
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Two_men_at_coffee_shop_counter_%28Unsplash%29.jpg/1200px-Two_men_at_coffee_shop_counter_%28Unsplash%29.jpg?20170816101547" alt="unloading" />
           <h4>Opening hours: <span>everyday from 6am to 5pm.</span></h4>
           <h4>Address: <span> 15 Adr street, 5015, NY</span></h4>
+          <div>
           <div className="menu-container">
-            <h3>THE MENU</h3>
+            <h3 id='menu'>THE MENU</h3>
           </div>
         </div>
 
@@ -142,11 +149,13 @@ function App() {
 
 
         </div>
+
+
         <div className='container1'>
           <img src="https://www.w3schools.com/w3images/coffeehouse2.jpg" alt="unloaded" />
         </div>
-
-
+        </div>
+          {/* contact-section */}
         <section id="contact">
           <div className="contact-container">
             <h3>Where To Find</h3>
