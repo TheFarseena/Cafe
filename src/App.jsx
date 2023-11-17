@@ -73,7 +73,7 @@ function App() {
   }
   return (
     <>
-      <div>
+      <div className='main'>
         <div className="container">
           <div className="header-container">
             <ul>
@@ -117,7 +117,7 @@ function App() {
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Two_men_at_coffee_shop_counter_%28Unsplash%29.jpg/1200px-Two_men_at_coffee_shop_counter_%28Unsplash%29.jpg?20170816101547" alt="unloading" />
           <h4>Opening hours: <span>everyday from 6am to 5pm.</span></h4>
           <h4>Address: <span> 15 Adr street, 5015, NY</span></h4>
-          <div>
+        
           <div className="menu-container">
             <h3 id='menu'>THE MENU</h3>
           </div>
@@ -148,7 +148,7 @@ function App() {
           </div>
 
 
-        </div>
+        
 
 
         <div className='container1'>
@@ -181,7 +181,7 @@ function App() {
               <button type='submit'>SEND MESSAGE</button>
             </form>
             <div className="footer">
-              <p>Powered  by         <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+              <p>Powered  by<a href="">`F&I tech</a>
               </p>
             </div>
           </div>

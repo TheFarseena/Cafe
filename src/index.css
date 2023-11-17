@@ -1,5 +1,7 @@
 
-
+.main{
+    margin-left: 15px;
+}
 
 
 /* header */
@@ -50,7 +52,7 @@
 }
 @media(max-width:470px){
     .image-container {
-        width: 207%;
+        width: 205%;
     }
 }
 .image-container h1{
